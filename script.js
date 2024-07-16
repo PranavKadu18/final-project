@@ -25,7 +25,7 @@ function loadanimation()
     })
 
     tl.to("#loader",{
-        delay : 0,
+        delay : 4,
         duration : 0.4,
         opacity : 0
     })
