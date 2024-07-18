@@ -67,6 +67,7 @@ function loadanimation()
 
     tl.from("#page1",{
         y : 1600,
+        ease : Power4,
         opacity : 0,
         duration : 1
     })
