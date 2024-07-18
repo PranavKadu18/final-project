@@ -1184,8 +1184,8 @@ span
     }
 
     #imgcrsr{
-        width: 12vw;
-        height: 12vw;
+        width: 22vw;
+        height: 22vw;
         position: absolute;
         top: 19%;
         left: 70%;
@@ -1200,7 +1200,7 @@ span
     }
 
     #imgcrsr i{
-        font-size: 2vw;
+        font-size: 5vw;
     }
 
     #vidholder img
@@ -1262,6 +1262,7 @@ span
     {
         margin-top: 4vh;
         padding: 0vh 4vw;
+        padding-right: 6.2vw;
         /* background-color: red; */
         display: flex;
         align-items: flex-start;
