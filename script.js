@@ -60,7 +60,7 @@ function loadanimation()
     })
 
     tl.to("#loader",{
-        delay : 4,
+        delay : 4.1,
         duration : 0.4,
         opacity : 0
     })
@@ -284,7 +284,6 @@ function borderanimation()
         }
     })
 }
-
 
 
 scroll();
