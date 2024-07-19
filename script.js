@@ -173,7 +173,8 @@ function videoanime()
     var control = document.querySelector("#imgcrsr");
 
     var flag = 1;
-    vidbox.addEventListener("click",function(){
+
+    function interaction(){
         if(flag == 1)
         {
             gsap.to("#imgcrsr",{
@@ -201,8 +202,10 @@ function videoanime()
 
             flag = 1;
         }
-        
-    })
+    }
+
+    vidbox.addEventListener("click",interaction)
+    vidbox.addEventListener("touchstart",interaction)
 
     vidbox.addEventListener("mouseenter",function(){
         crsr.style.opacity = 0;
