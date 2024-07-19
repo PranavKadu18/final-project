@@ -1307,6 +1307,17 @@ span
         background-color: rgb(13, 13, 13);
     }
 
+    html, body {
+        width: 100%;
+        height: 100%;
+        background-color: #151515;
+        font-family: plainlight;
+        color: white;
+        cursor: none;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
     #main
     {
         overflow-x: hidden;
